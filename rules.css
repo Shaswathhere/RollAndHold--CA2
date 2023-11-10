@@ -1,0 +1,57 @@
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    font-size: 4vh;
+    color: white;
+    overflow: hidden;
+}
+
+body{
+    background-image: url('./assets/rulesbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+ol{
+    width: 60vw;
+    height: auto;
+    position: absolute;
+    right: 20vw;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+#backbutton{
+    background-color: black;
+    margin: 2vh;
+    cursor: pointer;
+    font-size: 4vh;
+}
+#backbutton:hover{
+    background-color: white;
+    color: black;
+    font-size: 5vh;
+}
+@media (max-width: 800px) {
+    *{
+        font-size: 2vh;
+    }
+    body {
+        background-image: url('./assets/rulesbg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+    #backbutton{
+        font-size: 3vh;
+    }
+    #backbutton:hover{
+        background-color: white;
+        color: black;
+        font-size: 4vh;
+    }
+
+}

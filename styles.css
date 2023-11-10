@@ -1,0 +1,106 @@
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#player1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 15vh;
+
+    
+}
+
+#player2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 20vh;
+}
+
+#maxscore{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 25vh;
+}
+
+.rules{
+    display: flex;
+    justify-content: flex-end;
+    margin: 7vh;
+    cursor: pointer;
+}
+
+h2,input{
+    padding: 2vh;
+}
+
+input{
+    height: 1vh;
+    position: relative;
+    top: 1vh;
+    color: white;
+    background-color: black;
+    
+}
+
+#start{
+    color: white;
+    background-color: black;
+    height: 6vh;
+    width: 10vw;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+#startbutton{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30vh;
+    cursor: pointer;
+}
+
+#start:hover{
+    background-color: white;
+    color: black;
+    font-size: 4vh;
+    
+}
+
+@media (max-width: 800px) {
+    *{
+        font-size: 1.9vh;
+    }
+    body {
+        background-image: url('./assets/mobilebg1.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+    #start{
+        width: auto;
+        height: auto;
+    }
+    #rule-book{
+        position: relative;
+        bottom: 5vh;
+        left: 3vh;
+    }
+
+}
+
+
+
